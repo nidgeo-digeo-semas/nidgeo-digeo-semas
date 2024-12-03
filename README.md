@@ -4,7 +4,7 @@ A Diretoria de Geotecnologias (DIGEO) é uma unidade administrativa da **Secreta
 
 Além disso, a DIGEO tem como missão apoiar a regularização ambiental por meio da análise e validação do **Cadastro Ambiental Rural (CAR)** e do **Licenciamento Ambiental Rural (LAR)**, com ênfase na inclusão de agricultores familiares, ribeirinhos, extrativistas e comunidades tradicionais. A diretoria conta com uma assessoria técnica que oferece suporte às atividades e ações relacionadas ao CAR, treinamentos e capacitações, além de projetos como o **Paisagens Sustentáveis da Amazônia** e o **REDD+**.
 
-![Fluxograma da DIGEO](certificacao-car/capturas/sagra.png)
+![Fluxograma da DIGEO](nidgeo-digeo-semass/sagra.png)
 
 ## Gerências da DIGEO
 
@@ -26,7 +26,7 @@ Cabe ao Núcleo de Inteligência de Dados e Geotecnologias (NIDGEO) integrar as 
 
 ### Sistema de Certificação de Cadastro Ambiental Rural (CAR)
 
-![Dashboard Principal](certificacao-car/capturas/Dashboard%20Principal.png)
+![Dashboard Principal](nidgeo-digeo-semas/Dashboard%20Principal.png)
 
 O **Sistema de Certificação de Cadastro Ambiental Rural (CAR)** é um aplicativo desenvolvido pelo NIDGEO para automatizar e otimizar a emissão de certificados de CAR. Este sistema possui os seguintes destaques:
 
