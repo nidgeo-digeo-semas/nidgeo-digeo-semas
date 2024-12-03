@@ -36,4 +36,4 @@ O **Sistema de Certificação de Cadastro Ambiental Rural (CAR)** é um aplicati
 - **Painel de Monitoramento**: Dashboard interativo que exibe métricas em tempo real, como número de certificados emitidos e área regularizada.
 - **Relatórios Automatizados**: Geração de relatórios de metadados detalhados sobre os certificados emitidos.
 
-Acesse o repositório do projeto para mais informações: [Sistema de Certificação CAR](https://github.com/semas-pa/certificacao-car)
+Acesse o repositório do projeto para mais informações: [Sistema de Certificação CAR](https://github.com/nidgeo-digeo-semas/certificacao-car)
