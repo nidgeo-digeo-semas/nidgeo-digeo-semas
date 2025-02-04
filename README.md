@@ -74,3 +74,17 @@ graph TD
 [Confira o projeto completo no GitHub](https://github.com/nidgeo-digeo-semas/cenario_automatizado_qgis)
 
 ---
+
+### Cálculo do Passivo de Reserva Legal no Estado do Pará
+
+### Resumo do Projeto
+Este projeto visa estimar o **passivo de Reserva Legal (RL)** no Estado do Pará, auxiliando na compensação e regularização ambiental conforme os requisitos do **Código Florestal (Lei nº 12.651/2012)**. A metodologia considera tipologias vegetais, remanescentes de vegetação nativa e a base do **Cadastro Ambiental Rural (CAR)**, garantindo um mapeamento preciso das áreas deficitárias. Foram utilizadas bases geoespaciais como **MapBiomas, SNIRH/ANA e SICAR**, além de processamento no **PostgreSQL/PostGIS, Python e QGIS 3.34.3**.
+
+O projeto envolveu quatro etapas principais: (i) construção da base de tipologias vegetais, (ii) identificação do remanescente de vegetação nativa em 2008, (iii) processamento da base do CAR e (iv) cruzamento das bases para calcular o passivo de RL. A análise permitiu identificar imóveis rurais com déficits ambientais, considerando restrições como áreas protegidas e corpos d'água.
+
+
+### Resultado
+![Remanescente 2008 sobre Base CAR](https://github.com/nidgeo-digeo-semas/passivo_compensacao/raw/main/remanescente_2008_base_car_II.png)
+
+### Repositório
+[Confira o projeto completo no GitHub](https://github.com/nidgeo-digeo-semas/passivo_compensacao)
