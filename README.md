@@ -4,9 +4,34 @@ A Diretoria de Geotecnologias (DIGEO) é uma unidade administrativa da **Secreta
 
 Além disso, a DIGEO tem como missão apoiar a regularização ambiental por meio da análise e validação do **Cadastro Ambiental Rural (CAR)** e do **Licenciamento Ambiental Rural (LAR)**, com ênfase na inclusão de agricultores familiares, ribeirinhos, extrativistas e comunidades tradicionais. A diretoria conta com uma assessoria técnica que oferece suporte às atividades e ações relacionadas ao CAR, treinamentos e capacitações, além de projetos como o **Paisagens Sustentáveis da Amazônia** e o **REDD+**.
 
-<div align="center">
-  <img src="sagra.png" alt="Fluxograma da DIGEO">
-</div>
+```mermaid
+graph TD;
+    %% Definição do layout %%
+    direction TB  %% Direção de cima para baixo (top-bottom)
+
+    %% Nível 1 - SAGRA, DIGEO e COGEO na mesma linha %%
+    A["<b>SAGRA</b><br>Secretaria Adjunta de Gestão e Regularidade Ambiental<br><i>Secretário Adjunto: Rodolpho Zahluth Bastos</i>"] 
+    B["<b>DIGEO</b><br>Diretoria de Geotecnologias<br><i>Direção: Maximira de Araújo Costa</i>"]
+    C["<b>COGEO</b><br>Coordenadoria de Geotecnologias<br><i>Coordenação: Sandra Luciene Lobo Nazaré</i>"]
+
+    %% Conectar os elementos manualmente %%
+    A --> B
+    B --> C
+
+    %% Nível 2 - Assistentes Administrativos %%
+    C --> D["<b>ADM</b><br>Assistentes Administrativos"]
+
+    %% Nível 3 - GERÊNCIAS %%
+    subgraph GERÊNCIAS [" "]
+      direction LR
+      E["<b>GEOTEC</b><br>Gerência de Suporte Geotecnológico ao Licenciamento Ambiental<br><i>Gerente: Aline Gomes</i>"];
+      F["<b>GTDI</b><br>Gerência de Tratamento Digital de Imagens e Suporte ao Monitoramento Espacial Ambiental<br><i>Gerentes: Thiago Costa e Paola Negrão</i>"];
+      G["<b>GEOSIG</b><br>Gerência de Gestão de Sistemas de Informações Geográficas e Geotecnologias<br><i>Gerentes: Assucena Lebre e Renato Chaves</i>"];
+      H["<b>NIDGEO</b><br>Núcleo de Inteligência de Dados e Geotecnologias<br><i>Gerente: Victor Ferreira</i>"];
+    end
+
+    C -->|"Supervisiona"| GERÊNCIAS
+```
 
 ## Gerências da DIGEO
 
@@ -20,7 +45,56 @@ A GEOSIG foi criada com a finalidade de dar suporte geotecnológico aos técnico
 A GTDI é responsável pela classificação automática e semi-automática de produtos de imagem e vetor, utilizando softwares específicos de Tratamento Digital de Imagens e Classificação da Cobertura Vegetal e de Uso do Solo, além da detecção de exploração florestal em série histórica para atender às análises espaciais do licenciamento, monitoramento e fiscalização.
 
 ### NIDGEO
-Cabe ao Núcleo de Inteligência de Dados e Geotecnologias (NIDGEO) integrar as informações geoespaciais através da construção de sistemas e aplicações para melhorar e otimizar as atividades do setor. Além disso, realiza a gestão de banco de dados e análise de informações geográficas e estatísticas para a geração de relatórios mensais de análise de CAR no estado e disponibilização de relatórios e dados geoespaciais ao público.
+O NIDGEO é a unidade responsável pelo desenvolvimento, manutenção e documentação dos sistemas e bancos de dados utilizados pela Diretoria de Geotecnologias (DIGEO). Sua missão é integrar informações geoespaciais, criar aplicações para otimizar as atividades do setor e fornecer suporte técnico especializado em geoprocessamento, estatística e ciência de dados.
+
+---
+
+### **Equipe NIDGEO**
+A equipe do NIDGEO é composta por profissionais especializados em banco de dados, estatística, análise de dados e geoprocessamento.
+
+<div align="center">
+  <table>
+    <tr>
+      <th>Função</th>
+      <th>Nome</th>
+      <th>GitHub</th>
+    </tr>
+    <tr>
+      <td><b>Gerência / Banco de Dados</b></td>
+      <td>Victor Viegas</td>
+      <td>
+        <a href="https://github.com/viegasvictor" target="_blank">
+          <img src="https://img.shields.io/github/followers/viegasvictor?style=social" alt="Seguidores">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td><b>Estatística / Data Analysis</b></td>
+      <td>Elberth Sales</td>
+      <td>
+        <a href="https://github.com/Btosales2203903" target="_blank">
+          <img src="https://img.shields.io/github/followers/Btosales2203903?style=social" alt="Seguidores">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td><b>Geoprocessamento / Data Science</b></td>
+      <td>Samuel Santos</td>
+      <td>
+        <a href="https://github.com/samuel-c-santos" target="_blank">
+          <img src="https://img.shields.io/github/followers/samuel-c-santos?style=social" alt="Seguidores">
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+### **Principais Responsabilidades**
+- **Gestão de Banco de Dados**: Administração e otimização do PostgreSQL/PostGIS.
+- **Desenvolvimento e Manutenção de Sistemas**: Implementação de soluções para análise geoespacial e integração de dados.
+- **Análises Estatísticas e Geoespaciais**: Processamento e interpretação de dados para suporte à gestão ambiental.
+- **Documentação e Repositórios**: Manutenção de registros técnicos e gerenciamento de projetos no GitHub.
 
 ---
 
@@ -55,19 +129,6 @@ Com este sistema, grande parte dessas etapas são automatizadas, permitindo que 
 - **Cenário Automático de Vetores:** Importa, organiza e estrutura camadas geoespaciais em grupos e subgrupos no QGIS.
 - **Clip Automático Base Local:** Filtra um imóvel específico, gera buffers de 15 km e recorta todas as camadas do projeto dentro desse limite.
 - **Exportação e Organização Automatizada:** Camadas recortadas são exportadas e organizadas em uma estrutura clara e eficiente.
-
-### Fluxograma do Sistema
-```mermaid
-graph TD
-    A[Início] --> B[Carregar Base Vetorial]
-    B --> C[Filtrar Imóvel]
-    C --> D{Imóvel Encontrado?}
-    D -- Sim --> E[Gerar Buffer de 15km]
-    D -- Não --> F[Fim]
-    E --> G[Clipar Camadas]
-    G --> H[Exportar Resultados]
-    H --> F[Fim]
-```
 
 ### Captura de Tela
 ![Clip Automático Base Local](https://github.com/nidgeo-digeo-semas/cenario_automatizado_qgis/blob/main/clip_automatico_base_local.png?raw=true)
