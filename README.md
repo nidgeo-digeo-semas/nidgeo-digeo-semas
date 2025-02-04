@@ -4,7 +4,9 @@ A Diretoria de Geotecnologias (DIGEO) é uma unidade administrativa da **Secreta
 
 Além disso, a DIGEO tem como missão apoiar a regularização ambiental por meio da análise e validação do **Cadastro Ambiental Rural (CAR)** e do **Licenciamento Ambiental Rural (LAR)**, com ênfase na inclusão de agricultores familiares, ribeirinhos, extrativistas e comunidades tradicionais. A diretoria conta com uma assessoria técnica que oferece suporte às atividades e ações relacionadas ao CAR, treinamentos e capacitações, além de projetos como o **Paisagens Sustentáveis da Amazônia** e o **REDD+**.
 
-![Fluxograma da DIGEO](sagra.png)
+<div align="center">
+  <img src="sagra.png" alt="Fluxograma da DIGEO">
+</div>
 
 ## Gerências da DIGEO
 
