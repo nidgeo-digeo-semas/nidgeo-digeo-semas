@@ -151,3 +151,21 @@ O projeto envolveu quatro etapas principais: (i) construção da base de tipolog
 
 ### Repositório
 [Confira o projeto completo no GitHub](https://github.com/nidgeo-digeo-semas/passivo_compensacao)
+
+---
+
+### Painel de Controle de Demandas de CAR
+
+### Resumo do Projeto  
+O **Painel de Controle de Demandas de CAR** foi desenvolvido pelo **NIDGEO/DIGEO-SEMAS** para monitoramento estratégico das análises do **Cadastro Ambiental Rural (CAR)** no Pará. Ele consolida **dados históricos de validações, suspensões e cancelamentos**, permitindo um acompanhamento preciso do progresso da regularização ambiental no estado.  
+
+O painel é alimentado por um banco de dados interno que integra informações do **SICAR**, possibilitando uma visão abrangente dos indicadores ambientais. As análises são categorizadas em **técnicas, automatizadas, expedidas e CAR 2.0**, além do registro de ações de suspensão e cancelamento de imóveis.  
+
+A ferramenta foi desenvolvida no **Microsoft Power BI** e utiliza filtros avançados, permitindo segmentação por **tipo de imóvel, módulo fiscal, condição do CAR e períodos temporais (anual, quadrimestral e mensal)**. Com isso, gestores e técnicos podem tomar decisões mais assertivas e acompanhar as metas da regularização ambiental.
+
+### Resultado  
+![Painel de Controle de Demandas de CAR](https://github.com/nidgeo-digeo-semas/dashboard_analises_tecnicas/raw/main/index.png)  
+
+### Repositório  
+[Confira o projeto completo no GitHub](https://github.com/nidgeo-digeo-semas/dashboard_analises_tecnicas)  
+
